@@ -1,0 +1,8 @@
+cache:
+  enabled: true
+  expires_in: 60
+  flush_resource_id: document:1jkRyac-YP9PbMmnqcV8vhTyURZv7me-7-Htl4RtIzLs
+  store: memory
+  
+debug: true
+  

@@ -1,0 +1,31 @@
+GIT
+  remote: git://github.com/pmoran/gdoclet
+  revision: 38cd22a8f0f6cc7f5c9567dcd0063b07546f135a
+  specs:
+    gdoclet (0.1)
+      RedCloth (= 4.2.3)
+      dalli (~> 1.0.2)
+      nokogiri (~> 1.4.4)
+      oauth (~> 0.4.4)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    RedCloth (4.2.3)
+    dalli (1.0.2)
+    haml (3.0.25)
+    nokogiri (1.4.4)
+    oauth (0.4.4)
+    rack (1.2.1)
+    sinatra (1.2.0)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gdoclet!
+  haml
+  sinatra

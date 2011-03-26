@@ -1,0 +1,30 @@
+!!!
+%html
+  %head
+  %title GDoclet Demo
+  %link{:rel => "stylesheet", :type => "text/css", :href => "/style.css"}
+  %body
+
+  #navcontainer
+    %ul#navlist
+      %li
+        %a(href="/") home
+      %li
+        %a(href='/blog') blog
+      %li
+        %a(href="#") portfolio
+      %li
+        %a(href="#") links
+      %li
+        %a(href="mailto:workingpeter@gmail.com") contact
+  #wrap
+    #header
+    #title
+      GDoclet
+      %br
+      v0.1
+    #container
+      .content= yield
+      #footer
+        %br
+        %a(href="http://www.dream-logic.com") Web Design by dreamLogic
