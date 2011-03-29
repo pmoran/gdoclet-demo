@@ -1,8 +1,8 @@
 cache:
   enabled: true
-  expires_in: 60
+  expires_in: 300
   flush_resource_id: document:1jkRyac-YP9PbMmnqcV8vhTyURZv7me-7-Htl4RtIzLs
-  store: memory
+  store: memcached
   
 debug: true
   
