@@ -14,6 +14,7 @@ GEM
     RedCloth (4.2.3)
     dalli (1.0.2)
     haml (3.0.25)
+    newrelic_rpm (2.14.1)
     nokogiri (1.4.4)
     oauth (0.4.4)
     rack (1.2.1)
@@ -28,4 +29,5 @@ PLATFORMS
 DEPENDENCIES
   gdoclet!
   haml
+  newrelic_rpm
   sinatra

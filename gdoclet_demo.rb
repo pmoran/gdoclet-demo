@@ -2,6 +2,10 @@ require 'sinatra'
 require 'haml'
 require "sinatra/gdoclet_helper"
 
+configure :production do
+  require 'newrelic_rpm'
+end
+
 get '/' do
   haml :index
 end
