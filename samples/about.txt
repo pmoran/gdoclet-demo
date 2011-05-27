@@ -1,0 +1,6 @@
+﻿==
+h3. Welcome!
+
+
+This is a demo of GDoclet - an attempt at the simplest possible web CMS to Ruby using Google Docs to publish content on your website. Currently it is implemented as a Sinatra extension, but can easily be implemented for Ruby on Rails. Content is stored as Google Docs documents using "Textile":http://www.textism.com/tools/textile syntax. Documents must be “published” before they appear on the site - this allows you to create new versions of the document and only publish when ready. For this demo, automatic publishing is enabled to see changes straight away.
+Currently there is basic caching of content which can be flushed on demand.

@@ -1,0 +1,8 @@
+﻿==
+h3. Making changes
+
+
+This bit of content is managed in Google Docs. If you have the right permission, you should be able to login and edit it using the link below here.
+
+
+This should be unpublished, and is now updated.
